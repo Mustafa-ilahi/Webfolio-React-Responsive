@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.devLogo{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  right: 12px;
+}
+.homeLogo{
+  width: 28px;
+  height: 25px;
+  position: relative;
+  bottom: 5px;
+}
+
+.aboutLogo{
+  width: 28px;
+  height: 24px;
+  position: relative;
+  bottom: 3px;
+}
+
+.skillsLogo{
+  width: 31px;
+  height: 30px;
+  position: relative;
+  bottom: 3px;
+}
+
+.experienceLogo{
+  width: 31px;
+  height: 28px;
+  position: relative;
+  bottom: 3px;
+}
