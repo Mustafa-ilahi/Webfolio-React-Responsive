@@ -70,3 +70,7 @@
   position: relative;
   bottom: 3px;
 }
+
+.animate-navbar {
+  box-shadow: 1px 1px 1px hsla(240, 20%, 8%, 0.973);
+}
