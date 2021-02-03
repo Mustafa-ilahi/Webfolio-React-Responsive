@@ -1,12 +1,16 @@
 import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav_bar from './components/Navbar'
+import Nav_bar from './components/Navbar';
+import Header from './components/Header';
 
 class App extends React.Component{
   render(){
     return(
-      <Nav_bar />
+      <div>
+        <Nav_bar />
+        <Header />
+      </div>
     )
   }
 }

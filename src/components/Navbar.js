@@ -6,7 +6,7 @@ import devLogo from '../assets/logo.png';
 import homeLogo from '../assets/home.png';
 import aboutLogo from '../assets/aboutLogo.png';
 import skillsLogo from '../assets/skills.png';
-import experienceLogo from '../assets/experience.png'
+import experienceLogo from '../assets/experience.png';
 
 class Nav_bar extends React.Component{
   render(){
