@@ -76,7 +76,26 @@
 }
 
 .developerImg{
-  height: 315px;
+    height: 315px;
     width: 385px;
+    transition: transform .2s; /* Animation */
+}
+.developerImg:hover{
+  transform: scale(1.5); 
 }
 
+.githubIcon, .fbIcon, .scIcon, .instaIcon{
+  height: 50px;
+  width: 50px;
+  transition: transform .2s;
+}
+
+.gmailIcon{
+  height: 38px;
+  width: 52px;
+  transition: transform .2s;
+}
+.githubIcon:hover, .gmailIcon:hover, .fbIcon:hover, .scIcon:hover, .instaIcon:hover{
+transform: scale(1.5);
+cursor: pointer;
+}

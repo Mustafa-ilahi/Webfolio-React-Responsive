@@ -1,0 +1,10 @@
+  
+.ml2 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  
+  .ml2letter {
+    display: inline-block;
+    line-height: 1em;
+  }
