@@ -76,13 +76,16 @@
 }
 
 .developerImg{
-    height: 350px;
-    width: 430px;
     transition: transform .2s; /* Animation */
 }
 .developerImg:hover{
   transform: scale(1.5); 
 }
+@media (max-width:1567px){
+  .developerImg {
+    height: 350px;
+    width: 430px;
+  }}
 
 @media (max-width:767px){
   .developerImg {
@@ -91,20 +94,27 @@
   }
  }
 
+
  @media (max-width:600px){
   .developerImg {
-    width: 220px;     
-    height: 220px;  
+    width: 320px;     
+    height: 280px;  
   }
  }
 
  @media (max-width:500px){
   .developerImg {
-    width: 190px;     
-    height: 190px;  
+    width: 280px;     
+    height: 220px;  
   }
  }
 
+ @media (max-width:412px){
+  .developerImg {
+    width: 261px;     
+    height: 210px;  
+  }
+ }
 .githubIcon, .fbIcon, .scIcon, .instaIcon{
   height: 50px;
   width: 50px;
