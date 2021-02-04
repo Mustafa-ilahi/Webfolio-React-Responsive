@@ -7,7 +7,7 @@ class PersonalInformation extends React.Component{
             <div className="personalInfo">
                 <h2>Personal Information</h2>
                 <div className="profileDiv">
-                    <img src={profileImg} style={{height:"250px",width:"270px",borderRadius:"50%"}}/>   
+                    <img src={profileImg} className="profileImg"/>   
                     {/* <h1>hover me</h1> */}
                 </div> 
             </div>

@@ -196,8 +196,8 @@ hr{
   justify-content: center;
   position: relative;
   margin: 20px auto;
-  width: 280px;
-  height: 260px;
+  /* width: 230px;
+  height: 220px; */
   background: whitesmoke;
   border-radius: 50%;
   font-family: 'Montserrat', sans-serif;
@@ -215,8 +215,8 @@ hr{
   display: block;
   content: '';
   position: absolute;
-  width: 282px;
-  height: 262px;
+  /* width: 230px;
+  height: 220px; */
   background: darkred;
   border-radius: 50%;
   z-index: -1;
@@ -227,6 +227,94 @@ hr{
   background: black;
   animation: 2s counterclockwise infinite;
 }
+
+/* .profileImg{ 
+  height:220px; 
+  width: 230px;
+  border-radius:"50%";
+} */
+
+@media (max-width:1567px){
+  .profileDiv{
+    height:300px; 
+    width: 300px;
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height:300px; 
+    width: 300px;
+  }
+  .profileImg{
+    height:300px; 
+    width: 300px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:767px){
+  .profileDiv{
+    width: 200px;     
+    height: 200px; 
+  }
+    .profileDiv:hover::before, .profileDiv:hover::after {
+      height: 200px;
+      width: 200px;
+  }
+  .profileImg{
+    height:200px; 
+    width: 200px;
+    border-radius: 50%;
+  }
+ }
+
+
+ @media (max-width:600px){
+  .profileDiv{
+    width: 180px;     
+    height: 180px;  
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height: 177px;
+    width: 177px;
+  }
+  .profileImg{
+    height:180px; 
+    width: 180px;
+    border-radius: 50%;
+  }
+
+}
+
+ @media (max-width:500px){
+  .profileDiv{
+    width: 182px;     
+    height: 182px;  
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height: 182px;
+    width: 182px;
+  }
+.profileImg{
+  height:181px; 
+  width: 181px;
+  border-radius: 50%;
+}
+ }
+
+ @media (max-width:412px){
+  .profileDiv{
+    height:181px; 
+    width: 181px; 
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height:181px; 
+    width: 181px;
+  }
+  .profileImg{
+    height:181px; 
+    width: 181px;
+    border-radius: 50%;
+}
+ }
 
 @keyframes clockwise {
   0% {
@@ -305,3 +393,5 @@ hr{
     right: 0;    
   }
 }
+
+
