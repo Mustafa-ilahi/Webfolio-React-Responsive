@@ -99,3 +99,48 @@
 transform: scale(1.5);
 cursor: pointer;
 }
+
+.codeIcon{
+  height: 40px;
+  width: 70px;
+}
+
+/* Download  */
+@import url('//fonts.googleapis.com/css?family=Roboto:500');
+ @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+ .face-button {
+	 height: 64px;
+	 display: inline-block;
+	 border: 3px solid black;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 20px;
+	 font-weight: 500;
+	 text-align: center;
+	 text-decoration: none;
+	 color: #2C3940;
+	 overflow: hidden;
+}
+ .face-button .icon {
+	 margin-right: 6px;
+}
+ .face-button .face-primary, .face-button .face-secondary {
+	 display: block;
+	 padding: 0 32px;
+	 line-height: 64px;
+	 transition: margin 0.4s;
+}
+ .face-button .face-primary {
+	 background-color: #2C3940;
+	 color: whitesmoke;
+}
+ .face-button:hover .face-primary {
+	 margin-top: -64px;
+}
+.face-secondary{
+  color: #2C3940;
+  background-color: whitesmoke;
+}
+
+hr{
+  background-color: darkgray; height: 1px; width: 65%; 
+}
