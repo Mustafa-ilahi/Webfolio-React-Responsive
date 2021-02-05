@@ -7,6 +7,7 @@ import homeLogo from '../assets/home.png';
 import aboutLogo from '../assets/aboutLogo.png';
 import skillsLogo from '../assets/skills.png';
 import experienceLogo from '../assets/experience.png';
+// import personalInfo from './PersonalInformation'
 
 class Nav_bar extends React.Component{
   render(){
@@ -20,7 +21,7 @@ class Nav_bar extends React.Component{
         <Nav className="mr-auto">
           <Nav.Link href="#features">
           <img src={homeLogo} className="homeLogo"/>&nbsp; Home &nbsp;</Nav.Link>
-          <Nav.Link href="#pricing">
+          <Nav.Link href="#aboutMe">
           <img src={aboutLogo} className="aboutLogo"/>&nbsp; About &nbsp;</Nav.Link>
           <Nav.Link href="#pricing">
           <img src={skillsLogo} className="skillsLogo"/>&nbsp; Skills &nbsp;</Nav.Link>

@@ -394,4 +394,19 @@ hr{
   }
 }
 
+#aboutMe{
+  margin: 0 auto;
+  border: 2px solid gray;
+  width: 620px;
+  height: 230px;
+  box-shadow: 2px 2px 2px 2px black;
+}
 
+#aboutMe:hover{
+  transition-duration: 2s;
+  color: white;
+  background-color:  #2F3F79;
+}
+p{
+  font-family: sans-serif;
+}
