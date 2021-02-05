@@ -17,47 +17,39 @@ class Education extends React.Component{
                     <br/>
                     <br/>
                     <br/>
-            <div className="card-deck">
-            <div className="card" >
-                <img src={schoolImg} className="card-img-top" id="secondImgCard"/>
-                <div className="card-body">
-                    <br/>
-                <h5 className="card-title">Shah Grammar High School</h5>
-                {/* <hr/> */}
-                <ul className="card-footer" id="uniFooter">
-                    <li><b>Science </b></li>
-                    <hr/>
-                    <li>Pass Out in 2016</li>
-                </ul>
+                </div>
+
+                {/* Card */}
+                <div id="main">
+                <div id="one">
+                    <img src={uniImg} id="uniImg"/>
+                    <h4>Shah Grammar High School</h4>
+                    <ul>
+                        <hr/>
+                        <li><b>Science </b></li>
+                        <li>Pass Out in 2016</li>
+                    </ul>
+                </div>
+                <div id="two">
+                    <img src={uniImg} id="uniImg"/>
+                    <h4>P.E.C.H.S Govt Degree Science College</h4>
+                    <ul>
+                        <hr/>
+                        <li><b>Pre Engineering  </b></li>
+                        <li>2016-2018</li>
+                    </ul>
+                </div>
+                <div id="three">
+                    <img src={uniImg} id="uniImg"/>
+                    <h4>Sir Syed University of Technology and Engineering</h4>
+                    <ul>
+                        <hr/>
+                        <li><b>Bachelor of Science in Software Engineering</b></li>
+                        <li>2019-2022</li>
+                    </ul>
                 </div>
             </div>
-            <div className="card">
-                <img src={collegeImg} className="card-img-top" id="secondImgCard" />
-                <div className="card-body">
-                    <br/>
-                <h5 className="card-title">P.E.C.H.S Govt Degree Science College</h5>
-                <ul className="card-footer" id="uniFooter">
-                    <li><b>Pre Engineering </b></li>
-                    <hr/>
-                    <li>2016-2018</li>
-                </ul>
-                </div>
             </div>
-            <div className="card">
-                <img src={uniImg} className="card-img-top" id="thirdImgCard" />
-                <div className="card-body">
-                <h5 className="card-title">Sir Syed University of Technology and Engineering</h5>
-                <ul className="card-footer" id="uniFooter">
-                    <li><b>Bachelor of Science in Software Engineering </b></li>
-                    <hr/>
-                    <li>2019-2022</li>
-                </ul>
-                </div>
-            </div>
-</div>
-                <br/>
-</div>
-</div>
             
         )
     }
