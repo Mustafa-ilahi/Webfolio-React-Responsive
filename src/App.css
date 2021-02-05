@@ -220,7 +220,7 @@ hr{
   background: darkred;
   border-radius: 50%;
   z-index: -1;
-  animation: 1s clockwise infinite;
+  animation: 2s clockwise infinite;
 }
 
 .profileDiv:hover:after {
@@ -228,11 +228,6 @@ hr{
   animation: 2s counterclockwise infinite;
 }
 
-/* .profileImg{ 
-  height:220px; 
-  width: 230px;
-  border-radius:"50%";
-} */
 
 @media (max-width:1567px){
   .profileDiv{
@@ -395,10 +390,7 @@ hr{
 }
 
 #aboutMe{
-  /* margin: 0 auto; */
   border: 2px solid gray;
-  /* width: 620px;
-  height: 230px; */
   box-shadow: 2px 2px 2px 2px black;
 }
 
