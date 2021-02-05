@@ -395,10 +395,10 @@ hr{
 }
 
 #aboutMe{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border: 2px solid gray;
-  width: 620px;
-  height: 230px;
+  /* width: 620px;
+  height: 230px; */
   box-shadow: 2px 2px 2px 2px black;
 }
 
@@ -407,6 +407,55 @@ hr{
   color: white;
   background-color:  #2F3F79;
 }
+
+
+@media (max-width:1567px){
+  #aboutMe {
+    margin: 0 auto;
+    width: 620px;
+    height: 230px;
+  }}
+
+@media (max-width:767px){
+  #aboutMe {
+    margin: 0 auto;
+    width: 500px;
+    height: 230px;
+  }}
+
+
+ @media (max-width:600px){
+  #aboutMe {
+    margin: 0 auto;
+    width: 400px;
+    height: 280px;
+  }}
+
+ @media (max-width:500px){
+  #aboutMe {
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+  }}
+
+ @media (max-width:412px){
+  #aboutMe {
+    margin: 0 auto;
+    width: 320px;
+    height: 340px;
+  }}
+
 p{
   font-family: sans-serif;
+}
+
+#educationImg{
+  height: 70px;
+  width:  85px;
+}
+
+#educationText{
+  display: inline;
+  position: relative;
+  top: 6px;
 }
