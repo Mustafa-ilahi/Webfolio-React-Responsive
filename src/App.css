@@ -243,6 +243,11 @@ hr{
     width: 300px;
     border-radius: 50%;
   }
+  #aboutMe {
+    margin: 0 auto;
+    width: 620px;
+    height: 230px;
+  }
 }
 
 @media (max-width:767px){
@@ -258,6 +263,11 @@ hr{
     height:200px; 
     width: 200px;
     border-radius: 50%;
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 500px;
+    height: 230px;
   }
  }
 
@@ -276,7 +286,11 @@ hr{
     width: 180px;
     border-radius: 50%;
   }
-
+  #aboutMe {
+    margin: 0 auto;
+    width: 400px;
+    height: 280px;
+  }
 }
 
  @media (max-width:500px){
@@ -288,11 +302,16 @@ hr{
     height: 182px;
     width: 182px;
   }
-.profileImg{
-  height:181px; 
-  width: 181px;
-  border-radius: 50%;
-}
+  .profileImg{
+    height:181px; 
+    width: 181px;
+    border-radius: 50%;
+    }
+  #aboutMe {
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+  }
  }
 
  @media (max-width:412px){
@@ -308,7 +327,12 @@ hr{
     height:181px; 
     width: 181px;
     border-radius: 50%;
-}
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 320px;
+    height: 340px;
+  }
  }
 
 @keyframes clockwise {
@@ -400,45 +424,8 @@ hr{
   background-color:  #2F3F79;
 }
 
-
-@media (max-width:1567px){
-  #aboutMe {
-    margin: 0 auto;
-    width: 620px;
-    height: 230px;
-  }}
-
-@media (max-width:767px){
-  #aboutMe {
-    margin: 0 auto;
-    width: 500px;
-    height: 230px;
-  }}
-
-
- @media (max-width:600px){
-  #aboutMe {
-    margin: 0 auto;
-    width: 400px;
-    height: 280px;
-  }}
-
- @media (max-width:500px){
-  #aboutMe {
-    margin: 0 auto;
-    width: 350px;
-    height: 300px;
-  }}
-
- @media (max-width:412px){
-  #aboutMe {
-    margin: 0 auto;
-    width: 320px;
-    height: 340px;
-  }}
-
 p{
-  font-family: sans-serif;
+  font-weight: bold;
 }
 
 #educationImg{
