@@ -81,40 +81,7 @@
 .developerImg:hover{
   transform: scale(1.5); 
 }
-@media (max-width:1567px){
-  .developerImg {
-    height: 350px;
-    width: 430px;
-  }}
 
-@media (max-width:767px){
-  .developerImg {
-    width: 300px;     
-    height: 300px;  
-  }
- }
-
-
- @media (max-width:600px){
-  .developerImg {
-    width: 320px;     
-    height: 280px;  
-  }
- }
-
- @media (max-width:500px){
-  .developerImg {
-    width: 280px;     
-    height: 220px;  
-  }
- }
-
- @media (max-width:412px){
-  .developerImg {
-    width: 261px;     
-    height: 210px;  
-  }
- }
 .githubIcon, .fbIcon, .scIcon, .instaIcon{
   height: 50px;
   width: 50px;
@@ -228,113 +195,6 @@ hr{
   animation: 2s counterclockwise infinite;
 }
 
-
-@media (max-width:1567px){
-  .profileDiv{
-    height:300px; 
-    width: 300px;
-  }
-  .profileDiv:hover::before, .profileDiv:hover::after {
-    height:300px; 
-    width: 300px;
-  }
-  .profileImg{
-    height:300px; 
-    width: 300px;
-    border-radius: 50%;
-  }
-  #aboutMe {
-    margin: 0 auto;
-    width: 620px;
-    height: 230px;
-  }
-}
-
-@media (max-width:767px){
-  .profileDiv{
-    width: 200px;     
-    height: 200px; 
-  }
-    .profileDiv:hover::before, .profileDiv:hover::after {
-      height: 200px;
-      width: 200px;
-  }
-  .profileImg{
-    height:200px; 
-    width: 200px;
-    border-radius: 50%;
-  }
-  #aboutMe {
-    margin: 0 auto;
-    width: 500px;
-    height: 230px;
-  }
- }
-
-
- @media (max-width:600px){
-  .profileDiv{
-    width: 180px;     
-    height: 180px;  
-  }
-  .profileDiv:hover::before, .profileDiv:hover::after {
-    height: 177px;
-    width: 177px;
-  }
-  .profileImg{
-    height:180px; 
-    width: 180px;
-    border-radius: 50%;
-  }
-  #aboutMe {
-    margin: 0 auto;
-    width: 400px;
-    height: 280px;
-  }
-}
-
- @media (max-width:500px){
-  .profileDiv{
-    width: 182px;     
-    height: 182px;  
-  }
-  .profileDiv:hover::before, .profileDiv:hover::after {
-    height: 182px;
-    width: 182px;
-  }
-  .profileImg{
-    height:181px; 
-    width: 181px;
-    border-radius: 50%;
-    }
-  #aboutMe {
-    margin: 0 auto;
-    width: 350px;
-    height: 300px;
-  }
- }
-
- @media (max-width:412px){
-  .profileDiv{
-    height:181px; 
-    width: 181px; 
-  }
-  .profileDiv:hover::before, .profileDiv:hover::after {
-    height:181px; 
-    width: 181px;
-  }
-  .profileImg{
-    height:181px; 
-    width: 181px;
-    border-radius: 50%;
-  }
-  #aboutMe {
-    margin: 0 auto;
-    width: 320px;
-    height: 340px;
-  }
- }
-
 @keyframes clockwise {
   0% {
     top: -5px;
@@ -437,4 +297,200 @@ p{
   display: inline;
   position: relative;
   top: 6px;
+}
+
+/* Responsive */
+@media (max-width:1567px){
+  .developerImg {
+    height: 350px;
+    width: 430px;
+  }
+  .profileDiv{
+    height:300px; 
+    width: 300px;
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height:300px; 
+    width: 300px;
+  }
+  .profileImg{
+    height:300px; 
+    width: 300px;
+    border-radius: 50%;
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 620px;
+    height: 230px;
+  }
+  /* Cards */
+  .card-deck{
+    width: 1080px;
+    position: relative;
+    left: 240px;
+  }
+  .card{
+    height: 420px;
+  }
+  #secondImgCard, #thirdImgCard{
+    height: 188px;
+  }
+}
+@media(max-width:929px){
+  .card{
+    height: 435px;
+  }
+  #uniFooter{
+    height: 125px;
+  }
+}
+
+@media (max-width:767px){
+  .developerImg {
+    width: 300px;     
+    height: 300px;  
+  }
+  .profileDiv{
+    width: 200px;     
+    height: 200px; 
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height: 200px;
+    width: 200px;
+  }
+  .profileImg{
+    height:200px; 
+    width: 200px;
+    border-radius: 50%;
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 500px;
+    height: 245px;
+  }
+  .card-deck{
+    width: 920px;
+
+  }
+  .card{
+    /* height: 420px; */
+  }
+  #secondImgCard, #thirdImgCard{
+    /* height: 188px; */
+  }
+  #firstFooter{
+    /* height: 134px; */
+  }
+ }
+
+@media(max-width:1200){
+  .card-deck{
+    width:1250px;
+    position: relative;
+    left: 200px;
+
+  }
+  .card{
+    height: 420px;
+  }
+  #secondImgCard, #thirdImgCard{
+    height: 188px;
+  }
+  #firstFooter{
+    height: 104px;
+  }
+}
+
+ @media (max-width:600px){
+  .developerImg {
+    width: 320px;     
+    height: 280px;  
+  }
+  .profileDiv{
+    width: 180px;     
+    height: 180px;  
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height: 177px;
+    width: 177px;
+  }
+  .profileImg{
+    height:180px; 
+    width: 180px;
+    border-radius: 50%;
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 400px;
+    height: 280px;
+  }
+}
+ @media (max-width:500px){
+  .developerImg {
+    width: 280px;     
+    height: 220px;  
+  }
+  .profileDiv{
+    width: 182px;     
+    height: 182px;  
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height: 182px;
+    width: 182px;
+  }
+  .profileImg{
+    height:181px; 
+    width: 181px;
+    border-radius: 50%;
+    }
+  #aboutMe {
+    margin: 0 auto;
+    width: 350px;
+    height: 330px;
+  }
+ }
+ @media (max-width:412px){
+  .developerImg {
+    width: 261px;     
+    height: 210px;  
+  }
+  .profileDiv{
+    height:181px; 
+    width: 181px; 
+  }
+  .profileDiv:hover::before, .profileDiv:hover::after {
+    height:181px; 
+    width: 181px;
+  }
+  .profileImg{
+    height:181px; 
+    width: 181px;
+    border-radius: 50%;
+  }
+  #aboutMe {
+    margin: 0 auto;
+    width: 320px;
+    height: 340px;
+  }
+ }
+/* ----------- X ----------- */
+
+
+ #aboutMe > h1{
+   font-size: 20px !important;
+   font-weight: bold;
+ }
+
+/* Cards*/
+
+.card-img-top{
+  transition: .2s;
+}
+.card-img-top:hover{
+  transition-duration: .1s;
+  transform: scale(1.1);
+}
+
+ul{
+  list-style-type: none;
 }

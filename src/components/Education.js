@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import educationImg from '../assets/education.png';
 import {Card,CardDeck} from 'react-bootstrap';
 import schoolImg from '../assets/school.jpg';
+import collegeImg from '../assets/college.jpeg';
+import uniImg from '../assets/uni.jpg';
 
 class Education extends React.Component{
     render(){
@@ -12,51 +14,51 @@ class Education extends React.Component{
                 <div style={{textAlign: "center"}}>
                     <img src={educationImg} id="educationImg"/>
                     <h3 id="educationText"> My Education</h3>
+                    <br/>
+                    <br/>
+                    <br/>
+            <div className="card-deck">
+            <div className="card" >
+                <img src={schoolImg} className="card-img-top" id="secondImgCard"/>
+                <div className="card-body">
+                    <br/>
+                <h5 className="card-title">Shah Grammar High School</h5>
+                {/* <hr/> */}
+                <ul className="card-footer" id="uniFooter">
+                    <li><b>Science </b></li>
+                    <hr/>
+                    <li>Pass Out in 2016</li>
+                </ul>
                 </div>
-                <div>
-                    {/* <CardDeck>
-                        <Card>
-                            <Card.Img variant="top" src={schoolImg}/>
-                            <Card.Body>
-                            <Card.Title>
-                                <h3>Shah Grammar High School</h3>
-                            </Card.Title>
-                            </Card.Body>
-                            <Card.Footer>
-                            <small className="text-muted">Pass Out in 2016</small>
-                            <h5>Pass Out in 2016</h5>
-                            </Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
-                            </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                            <Card>
-                                <Card.Img variant="top" src="holder.js/100px160" />
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to
-                                    show that equal height action.
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                            </CardDeck> */}
+            </div>
+            <div className="card">
+                <img src={collegeImg} className="card-img-top" id="secondImgCard" />
+                <div className="card-body">
+                    <br/>
+                <h5 className="card-title">P.E.C.H.S Govt Degree Science College</h5>
+                <ul className="card-footer" id="uniFooter">
+                    <li><b>Pre Engineering </b></li>
+                    <hr/>
+                    <li>2016-2018</li>
+                </ul>
                 </div>
-            </div>    
+            </div>
+            <div className="card">
+                <img src={uniImg} className="card-img-top" id="thirdImgCard" />
+                <div className="card-body">
+                <h5 className="card-title">Sir Syed University of Technology and Engineering</h5>
+                <ul className="card-footer" id="uniFooter">
+                    <li><b>Bachelor of Science in Software Engineering </b></li>
+                    <hr/>
+                    <li>2019-2022</li>
+                </ul>
+                </div>
+            </div>
+</div>
+                <br/>
+</div>
+</div>
+            
         )
     }
 }
