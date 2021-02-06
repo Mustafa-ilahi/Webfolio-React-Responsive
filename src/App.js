@@ -7,6 +7,7 @@ import Text from './components/Text';
 import PersonalInformation from './components/PersonalInformation';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 
 class App extends React.Component{
   render(){
@@ -19,6 +20,7 @@ class App extends React.Component{
         <PersonalInformation />
         <Education />
         <Skills />
+        <Experience />
       </div>
     )
   }

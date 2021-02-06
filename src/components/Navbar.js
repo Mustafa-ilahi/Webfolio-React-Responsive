@@ -19,13 +19,13 @@ class Nav_bar extends React.Component{
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">
+          <Nav.Link href="#" >
           <img src={homeLogo} className="homeLogo"/>&nbsp; Home &nbsp;</Nav.Link>
           <Nav.Link href="#aboutMe">
           <img src={aboutLogo} className="aboutLogo"/>&nbsp; About &nbsp;</Nav.Link>
-          <Nav.Link href="#pricing">
+          <Nav.Link href="#skills">
           <img src={skillsLogo} className="skillsLogo"/>&nbsp; Skills &nbsp;</Nav.Link>
-          <Nav.Link href="#pricing">
+          <Nav.Link href="#experience">
           <img src={experienceLogo} className="experienceLogo"/>&nbsp; Experience</Nav.Link>
         </Nav>
       </Navbar.Collapse>
