@@ -17,6 +17,7 @@ class Experience extends React.Component{
                             <h5>Expertizo</h5>
                             <p>Work as <b>MERN Stack Developer</b></p>
                         </div>
+                        <br/>
                     </div>
                     <div className="secondExperience">
                         <br/>

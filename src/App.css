@@ -640,6 +640,7 @@ ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
   width: 30%;
   margin: 0 auto;
   height: 20px;
+  
 }
 
 .progress-bar{
@@ -674,6 +675,7 @@ ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
   width: 300px;
   box-shadow: 0 1px 6px rgb(0 0 0);
   order: 2;
+  margin: 25px;
 }
 
 #expertizoImg{
