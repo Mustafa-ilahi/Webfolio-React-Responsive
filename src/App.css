@@ -717,3 +717,105 @@ ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
   color: grey;
   font-weight: lighter;
 }
+
+
+/* Animation on SKills */
+#shadowOne {
+  margin-left: -500px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxOne;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxOne{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 110%;
+  }
+}
+
+#shadowTwo {
+  margin-left: -500px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxTwo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxTwo{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 110%;
+  }
+}
+#shadowThree {
+  margin-left: -450px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxThree;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxThree{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 99%;
+  }
+}
+#shadowFour {
+  margin-left: -300px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxFour;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxFour{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 66%;
+  }
+}
+
+#shadowFive {
+  margin-left: -300px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxFour;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxFour{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 66%;
+  }
+}
+
+#shadowSix {
+  margin-left: -300px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxFour;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxFour{
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 66%;
+  }
+}
