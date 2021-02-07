@@ -468,6 +468,9 @@ ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
   box-shadow: 0 1px 6px rgb(0 0 0);
 }
 
+#one>h4, #two>h4 , #three>h4{
+  text-align: center;
+}
 @media (max-width: 800px){
   #main {
     flex-direction: column;

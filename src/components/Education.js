@@ -14,7 +14,7 @@ class Education extends React.Component{
             <div>
                 <div style={{textAlign: "center"}}>
                     <img src={educationImg} id="educationImg"/>
-                    <h3 id="educationText"> My Education</h3>
+                    <h3 id="educationText"> Education</h3>
                     <br/>
                     <br/>
                     <br/>

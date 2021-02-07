@@ -8,7 +8,7 @@ class Experience extends React.Component{
     render(){
         return(
             <div id="experience" className="experienceDiv">
-                <h3>My Experience</h3>
+                <h3>Experience</h3>
                 <div className="expCard">
                     <div className="firstExperience">
                         <img src={expertizoImg} id="expertizoImg"/>
