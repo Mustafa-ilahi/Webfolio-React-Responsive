@@ -672,13 +672,16 @@ width: 0%;
   }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+@media only screen and (max-width: 500px){
+  .progress{
+    width: 300px;
+  }
   @keyframes shadowBoxOne{
     0%{
   width: 0%;
     }
     100%{
-      width: 130%;
+      width: 126%;
     }
   }
   @keyframes shadowBoxTwo{
@@ -686,7 +689,7 @@ width: 0%;
   width: 0%;
     }
     100%{
-      width: 130%;
+      width: 126%;
     }
   }
   @keyframes shadowBoxThree{
@@ -694,7 +697,7 @@ width: 0%;
   width: 0%;
     }
     100%{
-      width: 117%;
+      width: 113%;
     }
   }
   @keyframes shadowBoxFour{
@@ -707,13 +710,16 @@ width: 0%;
   }
 }
 
-@media screen and (min-device-width: 472px) and (max-device-width: 769px) { 
+@media only screen and (max-width: 800px){
+  #prog{
+    width: 340px !important;
+  }
   @keyframes shadowBoxOne{
     0%{
   width: 0%;
     }
     100%{
-      width: 130%;
+      width: 148%;
     }
   }
   @keyframes shadowBoxTwo{
@@ -721,7 +727,7 @@ width: 0%;
   width: 0%;
     }
     100%{
-      width: 130%;
+      width: 148%;
     }
   }
   @keyframes shadowBoxThree{
@@ -729,42 +735,7 @@ width: 0%;
   width: 0%;
     }
     100%{
-      width: 117%;
-    }
-  }
-  @keyframes shadowBoxFour{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 80%;
-    }
-  }
-}
-
-@media screen and (min-device-width: 442px) and (max-device-width: 768px) { 
-  @keyframes shadowBoxOne{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 142%;
-    }
-  }
-  @keyframes shadowBoxTwo{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 142%;
-    }
-  }
-  @keyframes shadowBoxThree{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 127%;
+      width: 132%;
     }
   }
   @keyframes shadowBoxFour{
@@ -773,76 +744,6 @@ width: 0%;
     }
     100%{
       width: 88%;
-    }
-  }
-}
-
-@media screen and (min-device-width: 407px) and (max-device-width: 768px) { 
-  @keyframes shadowBoxOne{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 155%;
-    }
-  }
-  @keyframes shadowBoxTwo{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 155%;
-    }
-  }
-  @keyframes shadowBoxThree{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 139%;
-    }
-  }
-  @keyframes shadowBoxFour{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 92%;
-    }
-  }
-}
-
-@media screen and (min-device-width: 360px) and (max-device-width: 640px) { 
-  @keyframes shadowBoxOne{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 175%;
-    }
-  }
-  @keyframes shadowBoxTwo{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 175%;
-    }
-  }
-  @keyframes shadowBoxThree{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 158%;
-    }
-  }
-  @keyframes shadowBoxFour{
-    0%{
-  width: 0%;
-    }
-    100%{
-      width: 105%;
     }
   }
 }
