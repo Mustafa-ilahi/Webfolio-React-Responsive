@@ -9,7 +9,7 @@ import fbIcon from '../assets/facebook.png';
 import scIcon from '../assets/sc.png';
 import instaIcon from '../assets/insta.png';
 import codeIcon from '../assets/code.png';
-import myPDF from '../assets/Mustafa.pdf';
+import myPDF from '../assets/cv.pdf';
 
 class Text extends React.Component{
     render(){
@@ -50,7 +50,7 @@ class Text extends React.Component{
                 <br/>
                 <br/>
                 {/* Download Button */}
-                <a className="face-button" href={myPDF} download="cv_mustafa.pdf">
+                <a className="face-button" href={myPDF} download="cv.pdf">
                 <div className="face-primary">
                     <span className="icon fa fa-cloud" />
                     Download CV
