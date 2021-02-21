@@ -1,9 +1,10 @@
 import '../App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import profileImg from '../assets/profileImg.jpeg';
+// import profileImg from '../assets/profileImg.jpeg';
 import SunnyMorning from './SunnyMorning';
 import {BeautifulQuestions, SignalNoise, Thursday, ReadySetGo} from 'moving-letters'
+import profileImg from '../assets/profile.jpeg';
 
 class PersonalInformation extends React.Component{
     render(){
