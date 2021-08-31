@@ -12,17 +12,17 @@ class Skills extends Component{
                 
                 <h4 style={{fontFamily:'sans-serif'}}>HTML</h4>
                 <div id="prog" className="progress">
-                    <div id="prog-bar-4" className="progress-bar progress-bar-striped" role="progressbar" style={{width:'50%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div id="prog-bar-4" className="progress-bar progress-bar-striped " role="progressbar" style={{width:'80%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     {/* <div id="shadowFour"></div> */}
                 </div><br />
                 <h4 style={{fontFamily:'sans-serif'}}>CSS</h4>
                 <div id="prog" className="progress">
-                    <div id="prog-bar-5" className="progress-bar progress-bar-striped" role="progressbar" style={{width:'55%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div id="prog-bar-5" className="progress-bar progress-bar-striped" role="progressbar" style={{width:'75%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     {/* <div id="shadowFive"></div> */}
                 </div><br />
                 <h4 style={{fontFamily:'sans-serif'}}>Bootstrap</h4>
                 <div id="prog" className="progress">
-                    <div id="prog-bar-6" className="progress-bar progress-bar-striped" role="progressbar" style={{width:'55%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div id="prog-bar-6" className="progress-bar progress-bar-striped" role="progressbar" style={{width:'70%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     {/* <div id="shadowSix"></div> */}
                 </div><br/>
                 <h4 style={{fontFamily:'sans-serif'}}>JavaScript</h4>
