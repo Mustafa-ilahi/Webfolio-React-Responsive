@@ -36,12 +36,12 @@ class Text extends React.Component{
                 <a href="https://www.facebook.com/mustafa.ilahi.1/" target="_blank">
                 <img src={fbIcon} className="fbIcon"/> &nbsp; &nbsp;
                 </a>
-                <a href="https://www.snapchat.com/add/mustafa_ilahi" target="_blank">
+                {/* <a href="https://www.snapchat.com/add/mustafa_ilahi" target="_blank">
                 <img src={scIcon} className="scIcon"/> &nbsp; &nbsp;
                 </a>
                 <a href="https://www.instagram.com/_mustafa_ilahi/" target="_blank">
                 <img src={instaIcon} className="instaIcon"/>  
-                </a>
+                </a> */}
                 <br/>
                 <br/>
                 <h5>Developer | Software Engineer</h5>

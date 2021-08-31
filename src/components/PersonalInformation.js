@@ -22,7 +22,7 @@ class PersonalInformation extends React.Component{
                             <BeautifulQuestions  text="About Me" />
                         </React.Fragment>
                         {/* <h4>About Me</h4> */}
-                        <p>My name is Mustafa Ilahi and I'm a Full Stack Web Developer additionally an Educated and a propelled programming understudy and a fast student, brisk to increase with any current improvement stage, and perform configuration, coding, troubleshooting, and testing application and framework programming. Amazing relational just as relational abilities and appreciates a high-pressure group climate.</p>
+                        <p>My name is Mustafa Ilahi and I'm a React and React Native Developer additionally an Educated and a propelled programming understudy and a fast student, brisk to increase with any current improvement stage, and perform configuration, coding, troubleshooting, and testing application and framework programming. Amazing relational just as relational abilities and appreciates a high-pressure group climate.</p>
                     </div>
                         <br/>
                         <br/>

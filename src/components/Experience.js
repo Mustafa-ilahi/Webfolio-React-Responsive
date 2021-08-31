@@ -7,33 +7,34 @@ import saylaniImg from '../assets/saylani.png';
 class Experience extends React.Component{
     render(){
         return(
+            // <div id="experience" className="experienceDiv">
+            //     <h3>Experience</h3>
+            //     <div className="expCard">
+            //         <div className="firstExperience">
+            //             <img src={expertizoImg} id="expertizoImg"/>
+            //             <div className="expText">
+            //                 <br/>
+            //                 <h5>Expertizo</h5>
+            //                 <p>Work as <b>MERN Stack Developer</b></p>
+            //             </div>
+            //             <br/>
+            //         </div>
+            //         <div className="secondExperience">
+            //             <br/>
+            //             <br/>
+            //         <img src={saylaniImg} id="saylaniImg"/>
+            //         <br/>
+            //             <div className="sayText">
+            //                 <br/>
+            //                 <h5>Saylani</h5>
+            //                 <p>Work as <b>MERN Stack Developer</b></p>
+            //             </div>
+            //         </div>
+            //     </div>
+            //     <br/>
+            //     <br/>
+            //     <br/>
             <div id="experience" className="experienceDiv">
-                <h3>Experience</h3>
-                <div className="expCard">
-                    <div className="firstExperience">
-                        <img src={expertizoImg} id="expertizoImg"/>
-                        <div className="expText">
-                            <br/>
-                            <h5>Expertizo</h5>
-                            <p>Work as <b>MERN Stack Developer</b></p>
-                        </div>
-                        <br/>
-                    </div>
-                    <div className="secondExperience">
-                        <br/>
-                        <br/>
-                    <img src={saylaniImg} id="saylaniImg"/>
-                    <br/>
-                        <div className="sayText">
-                            <br/>
-                            <h5>Saylani</h5>
-                            <p>Work as <b>MERN Stack Developer</b></p>
-                        </div>
-                    </div>
-                </div>
-                <br/>
-                <br/>
-                <br/>
                 <p id="footer">Made by Mustafa Ilahi Github @Mustafa-ilahi</p>
                 <br/>
             </div>

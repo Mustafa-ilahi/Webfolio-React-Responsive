@@ -280,8 +280,8 @@ hr{
 
 #aboutMe:hover{
   transition-duration: 2s;
-  color: white;
-  background-color:  #2F3F79;
+  color: black;
+  background-color: gainsboro;
 }
 
 p{
@@ -445,7 +445,7 @@ ul{
   transition: .2s;
 }
 ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   cursor: pointer 
 }
 
@@ -482,10 +482,10 @@ ul:hover, #one>h4:hover ,#two>h4:hover ,#three>h4:hover{
   transition: .2s;
 }
 
-#uniImg:hover{
+/* #uniImg:hover{
   transition-duration: 2s;
   transform:scale(0.9);
-}
+} */
 
 .skillsDiv{
   text-align: center;
